@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="/CSS/styles.css" />
     <title>Desafio 1</title>
   </head>
   <body>
@@ -20,40 +20,61 @@
     </div>
     <!-- Date Section -->
     <div class="Container-date">
-      <div class="Contente-date">
-        <h3 class="Title-date">850</h3>
+      <div>
+        <h1 class="Title-date">850</h1>
         <span class="Description-date">empreendimentos construídos</span>
       </div>
-      <div class="Contente-date">
-        <h3 class="Title-date">40</h3>
+      <div>
+        <h1 class="Title-date">40</h1>
         <span class="Description-date">anos de mercado e experiência</span>
       </div>
-      <div class="Contente-date">
-        <h3 class="Title-date">2,000,000</h3>
+      <div>
+        <h1 class="Title-date">2,000,000</h1>
         <span class="Description-date">m² em projetos construídos</span>
       </div>
     </div>
     <!-- Details Section -->
     <div class="Container-details">
-      <div class="Contente-details">
-        <h3 class="Tilte-details">Arquitetos com Histórias e Experiência.</h3>
-        <h6 class="Description-details">
+      <div>
+        <h1 class="Tilte-details">Arquitetos com Histórias e Experiência.</h1>
+        <span class="Description-details">
           Nós realizamos desde 2002 projetos e gerenciamento de obras.<br />
           Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br />
           como principal proposta transformar em realidade os sonhos de <br />
           seus clientes, criando projetos personalizados, unindo a tradição
           <br />
           e a modernidade em nossos projetos.
-        </h6>
+        </span>
       </div>
-      <img class="Image-details" src="/images/details.png" />
+      <img src="/img/details.png" />
     </div>
     <!-- Form Section -->
-    <form class="Conteiner-form">
+    <form
+      class="Conteiner-form"
+      action="https://api.sheetmonkey.io/form/893z7ccTGVGAdgYkG8Z5W9"
+      method="post"
+    >
       <h4 class="Title-form">Conheça mais sobre nossos serviços:</h4>
-      <input class="Input-form" type="text" placeholder="Nome" />
-      <input class="Input-form" type="email" placeholder="Email" />
-      <button class="Button-form" type="submit">Fale Conosco</button>
+      <input
+        class="Input-form"
+        type="text"
+        name="Name"
+        required
+        placeholder="Nome"
+      />
+      <input
+        class="Input-form"
+        type="email"
+        name="Email"
+        required
+        placeholder="Email"
+      />
+      <input
+        type="hidden"
+        name="Created"
+        value="x-sheetmonkey-current-date-time"
+      />
+      <input class="Button-form" type="submit" value="Fale Conosco" />
     </form>
   </body>
 </html>
