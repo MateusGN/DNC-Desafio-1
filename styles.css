@@ -1,0 +1,96 @@
+.Container-head {
+  height: 40vh;
+  background-color: #303030;
+  padding: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Title-head {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+.Description-head {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.Container-date {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding-top: 5.5rem;
+  padding-bottom: 4.5rem;
+}
+.Contente-date {
+}
+.Title-date {
+  font-weight: 600;
+  font-size: 4rem;
+}
+.Description-date {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.Container-details {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  align-items: center;
+  padding: 5rem;
+}
+.Contente-details {
+}
+.Tilte-details {
+  font-weight: 500;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+.Description-details {
+  font-weight: 300;
+  font-size: 2rem;
+}
+.Image-details {
+}
+.Conteiner-form {
+  background-color: #303030;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+}
+.Title-form {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+.Input-form {
+  height: 4.6rem;
+  width: 32rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 1.5rem;
+  margin-bottom: 3.6rem;
+}
+.Button-form {
+  font-weight: 600;
+  background-color: #c07212;
+  padding: 1.5rem 2.2rem;
+  border-radius: 1rem;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  border: 0px;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
